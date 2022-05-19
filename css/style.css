@@ -10,6 +10,11 @@
     border-radius: 5px;
 }
 
+.my-border {
+    border-top: 2px solid #B91451;
+    border-bottom: 2px solid #B91451;;
+}
+
 .my-input-style:focus-visible {
     border-radius: 5px;
     outline-color: #ea9834;

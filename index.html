@@ -12,12 +12,12 @@
 </head>
 <body>
     <div class="container mt-5">
-        <div class="row bg-magenta text-center justify-content-center">
+        <div class="row bg-magenta text-center justify-content-center pt-2 pb-5">
             <h2 class="text-white">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h2>
             <div class="col-10">
                 <div class="card">
                     <div class="card-body">
-                        <div class="row justify-content-center">
+                        <div class="row justify-content-center py-2">
                             <div class="col-3">
                                 <h6 class="magenta-color">Nome e Cognome</h6>
                                 <input type="text" placeholder="Nome & Cognome" name="userName" class="my-input-style">
@@ -31,16 +31,49 @@
                                 <input type="text" placeholder="Età" name="userEta" class="my-input-style">
                             </div>
                         </div>
-                        <div class="row justify-content-center">
+                        <div class="row justify-content-center py-2">
                             <div class="col-3">
-                                <button type="button" class="my-btn" id="submitButton"> <strong>Genera</strong></button>
-                                <button type="button" class="my-btn" id="submitButton"> <strong>Annulla</strong></button>
+                                <button type="button" class="my-btn" id="generaBtn"> <strong>Genera</strong></button>
+                                <button type="button" class="my-btn" id="annullaBtn"> <strong>Annulla</strong></button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <div class="row bg-magenta text-center justify-content-center pt-2 pb-5 d-none">
+            <h2 class="text-white">IL TUO BIGLIETTO</h2>
+            <div class="col-10 bg-white">
+                <h5 class="text-start fw-bold">DETTAGLIO PASSEGGERI</h5>
+                <div class="row my-border align-items-center">
+                    <div class="col-3 bg-secondary py-5">
+                        <h6 class="fw-bold">NOME PASSEGGERO</h6>
+                        <h6 class="fw-bold">Jon snow</h6>
+
+                    </div>
+                    <div class="col">
+                        <h6 class="fw-bold py-3">Offerta</h6>
+                        <div class="py-3">Biglietto Standard</div>
+                    </div>
+                    <div class="col">
+                        <h6 class="fw-bold py-3">Carrozza</h6>
+                        <div class="py-3">5</div>
+                    </div>
+                    <div class="col">
+                        <h6 class="fw-bold py-3">Codice CP</h6>
+                        <div class="py-3">numRandom</div>
+                    </div>
+                    <div class="col">
+                        <h6 class="fw-bold py-3">Costo biglietto</h6>
+                        <div class="py-3">2.10€</div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+
     </div>
     <script src="js/app.js"></script>
 </body>
