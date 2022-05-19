@@ -1,0 +1,31 @@
+.bg-magenta {
+    background-color: #B91451;
+}
+.magenta-color {
+    color: #B91451;
+}
+
+.my-input-style {
+    border: 2px solid #B91451;
+    border-radius: 5px;
+}
+
+.my-input-style:focus-visible {
+    border-radius: 5px;
+    outline-color: #ea9834;
+}
+
+.my-btn {
+    color: #B91451;
+    background-color: #CCCCCC;
+    border: 2px solid #959292;
+    border-radius: 5px;
+}
+
+.my-btn:hover {
+    border: 2px solid #ea9834;
+}
+
+.my-btn:active {
+    border: 2px solid #ea9834;
+}
